@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LevelProgressBar">
+        //等级文本字体大小
+        <attr name="levelTextSize" format="dimension"></attr>
+        //等级文本选中是颜色
+        <attr name="levelTextChooseColor" format="color"></attr>
+        //等级文本非选中时颜色
+        <attr name="levelTextUnChooseColor" format="color"></attr>
+        //当进度为0时，进度条的颜色
+        <attr name="progressStartColor" format="color"></attr>
+        //当进度为max时 进度条的颜色
+        <attr name="progressEndColor" format="color" />
+        //进度条的背景颜色
+        <attr name="progressBgColor" format="color" />
+        //进度条的高度
+        <attr name="progressHeight" format="dimension"></attr>
+    </declare-styleable>
+</resources>
